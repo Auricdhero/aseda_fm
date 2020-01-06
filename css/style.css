@@ -4,6 +4,9 @@
 
 
 
+.site-section{
+  height: 70%;
+}
 
 
 
@@ -19,11 +22,23 @@
 
 
 
-.caption{
+.caption {
   color: white;
   
 }
 
+.studio-heading{
+  color: white;
+  
+}
+.blog-text {
+  text-align: left;
+  width: 70%;
+  margin-top: 10%;
+}
+span .container{
+  margin-top: -200px;
+}
 
 .nav-link :hover{
   color: rgb(107, 107, 107);
