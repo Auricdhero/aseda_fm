@@ -15,8 +15,6 @@ body {
 
 }
 
-
-
 li, a{
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -55,19 +53,15 @@ li, a{
   height: 70%;
 }
 
-
-
-.sticky{
+/*.sticky{
   position: fixed;
   top: 0;
   width: 100%;
 }
-
+*/
 .sticky + .content {
   padding-top: 60px;
 }
-
-
 
 .caption {
   color: white;
