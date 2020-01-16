@@ -30,4 +30,12 @@ function login(path, params, method='post'){
 Object.onclick = function login(){
     document.getElementById("form").login();
 }
+
+const hamburger = document.querySelector('.hamburger');
+const navbar = document.querySelector('.navbar');
+const navlink = document.querySelector('.nav_link');
+
+hamburger.addEventListener("click", () =>{
+    navlink.classList.toggle("open");
+})
     
